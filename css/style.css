@@ -36,7 +36,7 @@ border-color: black;
 }
 /* hero section */
 .hero-image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/lion2.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/51t3tXF/lion2.jpg");
 height: 75%;
 margin: 40px;
 background-position: center;
