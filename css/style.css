@@ -1,0 +1,164 @@
+body, html {
+height: 100%;
+margin: 0;
+font-family: Abhaya Libre;
+}
+section {
+min-height: 100%;
+}
+/*clock and date */
+#ct {
+margin-top: -30px;
+float:right;
+font-size: 22px;
+
+}
+/* navbar */
+.navlink {
+color:black;
+float: left;
+width: 170px;
+padding: 20px;
+margin-right: 10px;
+text-align: center;
+border: solid 2px transparent;
+transition: border-color 0.5s;
+cursor: pointer;
+
+}
+.navlink:hover {
+border-color: black;
+
+}
+.centerButtons {
+  margin: 0 auto;
+  float: left;
+}
+/* hero section */
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/lion2.jpg");
+height: 75%;
+margin: 40px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 10%;
+left: 40%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+#one:before, #one:after {
+content:'\00a0\00a0\00a0\00a0';
+text-decoration: line-through;
+margin: auto 0.5em;
+}
+#one,h1{
+letter-spacing: 3px;
+}
+div.quote{
+    position: absolute;
+    color: white;
+    width: 250px;
+    right: 24px;
+    top: 150px;
+    font-size: 25px;
+
+}
+img{
+float:left;
+margin-right: : 40px;
+}
+
+h1{
+text-align: center;
+padding: 20px;
+overflow:hidden;
+}
+
+/* about me */
+.AboutMe
+{
+display: flex;
+}
+.AboutMe .Text {
+max-width: 500px;
+margin-left: 20px;
+text-align: left;
+float: left;
+}
+.AboutMe .Text p{
+text-align: left;
+overflow:auto;
+font-size: 20px;
+width:inherit;
+overflow:hidden;
+}
+.AboutMe img {
+max-height: 600px;
+float: left;
+margin: auto 300px;
+
+}
+@media screen and (max-width:800px) {
+.AboutMe {
+  width:100%;
+}
+}
+
+/*footer*/
+
+.footer-distributed .footer-icons{
+margin-top: 25px;
+}
+
+.footer {
+ position: relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #333232;
+ color: white;
+ text-align: center;
+ padding: 20px;
+}
+
+.s-m{
+position: absolute;
+top: 50%;
+left: 80%;
+transform: translate(-50%,-50%);
+}
+.s-m a{
+display: inline-flex;
+width: 40px;
+height: 40px;
+background: #2c3e50;
+color: white;
+margin: 0 6px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+transition: 0.4s;
+font-size: 22px;
+}
+.s-m a:hover{
+background: #e67e22;
+}
+.s-m a i{
+transition: 0.4s all;
+}
+.s-m a:hover > i{
+transform: scale(1.6) rotate(25deg);
+}
+/*space between about me and footer */
+.ab{
+padding: 20px;
+}
