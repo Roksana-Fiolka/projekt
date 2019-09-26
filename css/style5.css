@@ -10,12 +10,13 @@
 }
 /*the image*/
 .bg-img {
-  background-image: url("img/q.jpg");
+  background-image: url("https://i.ibb.co/zGJtfzS/q.jpg");
   min-height: 740px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border:0;
 }
 /*contact form, map..*/
 }
